@@ -10,6 +10,7 @@
 # - Plink
 # - winPEAS
 # - Mimikatz
+# - powercat.ps1
 # - Chisel
 # - PrintSpoofer
 # - Rubeus
@@ -34,6 +35,8 @@ cp /usr/share/windows-resources/binaries/nc.exe .
 cp /usr/share/windows-resources/binaries/plink.exe .
 cp /usr/share/peass/winpeas/winPEASx64.exe .
 cp /usr/share/windows-resources/mimikatz/x64/mimikatz.exe .
+
+wget https://github.com/besimorhino/powercat/blob/master/powercat.ps1
 
 wget https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_linux_amd64.gz
 wget https://github.com/jpillora/chisel/releases/download/v1.9.1/chisel_1.9.1_windows_amd64.gz

@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# TODO : Compiler SharpEfsPotato avec VSCode.
+# TODO : Compiler SharpEfsPotato, SweetPotato avec VSCode.
 #
 # Windows Tools ready to serve in seconds on Kali
 #

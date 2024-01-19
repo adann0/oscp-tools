@@ -35,6 +35,7 @@ cp /usr/share/windows-resources/binaries/nc.exe .
 cp /usr/share/windows-resources/binaries/plink.exe .
 cp /usr/share/peass/winpeas/winPEASx64.exe .
 cp /usr/share/windows-resources/mimikatz/x64/mimikatz.exe .
+cp /usr/lib/bloodhound/resources/app/Collectors/SharpHound.ps1 .
 
 wget https://github.com/besimorhino/powercat/blob/master/powercat.ps1
 
@@ -51,9 +52,6 @@ wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64
 wget https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/blob/master/Rubeus.exe
 
 wget https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/blob/master/Seatbelt.exe
-
-wget https://github.com/BloodHoundAD/BloodHound/blob/master/Collectors/SharpHound.ps1
-wget https://github.com/BloodHoundAD/BloodHound/blob/master/Collectors/SharpHound.exe
 
 wget https://download.sysinternals.com/files/PSTools.zip
 unzip PSTools.zip

@@ -71,3 +71,6 @@ unzip JuicyPotatoNG.zip
 wget https://github.com/foxglovesec/RottenPotato/blob/master/rottenpotato.exe
  
 rm -f *.zip *.gz
+
+cd ..
+zip -r win.zip win

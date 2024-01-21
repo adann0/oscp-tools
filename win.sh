@@ -22,6 +22,7 @@
 # - JuicyPotato
 # - JuicyPotatoNG
 # - RottenPotato
+# - upload.ps1
 
 sudo apt install -y powersploit peass windows-binaries
 
@@ -70,6 +71,8 @@ unzip JuicyPotatoNG.zip
 
 wget https://github.com/foxglovesec/RottenPotato/blob/master/rottenpotato.exe
  
+wget https://raw.githubusercontent.com/adann0/py_upload/main/upload.ps1
+
 rm -f *.zip *.gz
 
 cd ..

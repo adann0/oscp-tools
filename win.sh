@@ -51,9 +51,11 @@ wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64
 
 wget https://download.sysinternals.com/files/PSTools.zip
 unzip PSTools.zip
+rm -f Eula.txt
 
 wget https://download.sysinternals.com/files/ProcessMonitor.zip
 unzip ProcessMonitor.zip
+rm -f Eula.txt
 
 wget https://github.com/antonioCoco/RoguePotato/releases/download/1.0/RoguePotato.zip
 unzip RoguePotato.zip

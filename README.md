@@ -1,3 +1,3 @@
 # oscp-tools
 
-Some Python scripts for the OSCP.
+Some tools for the OSCP.

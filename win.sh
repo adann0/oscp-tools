@@ -14,6 +14,7 @@
 # - Rubeus
 # - Sharphound
 # - PsExec (PsTools)
+# - Procmon
 # - RoguePotato
 # - GodPotato
 # - JuicyPotato
@@ -50,6 +51,9 @@ wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64
 
 wget https://download.sysinternals.com/files/PSTools.zip
 unzip PSTools.zip
+
+wget https://download.sysinternals.com/files/ProcessMonitor.zip
+unzip ProcessMonitor.zip
 
 wget https://github.com/antonioCoco/RoguePotato/releases/download/1.0/RoguePotato.zip
 unzip RoguePotato.zip

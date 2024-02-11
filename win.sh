@@ -15,6 +15,7 @@
 # - Sharphound
 # - PsExec (PsTools)
 # - Procmon
+# - ListDLLs
 # - RoguePotato
 # - GodPotato
 # - JuicyPotato
@@ -22,6 +23,7 @@
 # - RottenPotato
 # - SharpEfsPotato
 # - upload.ps1
+# - met.exe
 
 sudo apt install -y powersploit peass windows-binaries
 
@@ -55,6 +57,10 @@ rm -f Eula.txt
 
 wget https://download.sysinternals.com/files/ProcessMonitor.zip
 unzip ProcessMonitor.zip
+rm -f Eula.txt
+
+wget https://download.sysinternals.com/files/ListDlls.zip
+unzip ListDlls.zip
 rm -f Eula.txt
 
 wget https://github.com/antonioCoco/RoguePotato/releases/download/1.0/RoguePotato.zip

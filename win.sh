@@ -26,6 +26,7 @@
 # - upload.ps1
 # - met.exe
 # - Kerbrute
+# - SystemNightmare.bat
 
 sudo apt install -y powersploit peass windows-binaries
 
@@ -95,6 +96,8 @@ wget https://github.com/adann0/oscp-tools/blob/main/bin/SharpEfsPotato.pdb
 wget https://github.com/adann0/oscp-tools/blob/main/bin/Rubeus.exe
 wget https://github.com/adann0/oscp-tools/blob/main/bin/Rubeus.exe.config
 wget https://github.com/adann0/oscp-tools/blob/main/bin/Rubeus.pdb
+
+wget https://raw.githubusercontent.com/GossiTheDog/SystemNightmare/main/SystemNightmare.bat
 
 rm -f *.zip *.gz
 

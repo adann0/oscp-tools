@@ -27,6 +27,7 @@
 # - met.exe
 # - Kerbrute
 # - SystemNightmare.bat
+# - HiveNightmare
 
 sudo apt install -y powersploit peass windows-binaries
 
@@ -98,6 +99,7 @@ wget https://github.com/adann0/oscp-tools/blob/main/bin/Rubeus.exe.config
 wget https://github.com/adann0/oscp-tools/blob/main/bin/Rubeus.pdb
 
 wget https://raw.githubusercontent.com/GossiTheDog/SystemNightmare/main/SystemNightmare.bat
+wget https://github.com/GossiTheDog/HiveNightmare/raw/master/Release/HiveNightmare.exe
 
 rm -f *.zip *.gz
 

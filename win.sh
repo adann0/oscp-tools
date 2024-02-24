@@ -29,6 +29,7 @@
 # - SystemNightmare.bat
 # - HiveNightmare
 # - Print Spooler LPE (CVE-2021-1675)
+# - SpoolFool (CVE-2022-21999)
 
 sudo apt install -y powersploit peass windows-binaries
 
@@ -101,7 +102,9 @@ wget https://github.com/adann0/oscp-tools/blob/main/bin/Rubeus.pdb
 
 wget https://raw.githubusercontent.com/GossiTheDog/SystemNightmare/main/SystemNightmare.bat
 wget https://github.com/GossiTheDog/HiveNightmare/raw/master/Release/HiveNightmare.exe
-wget https://github.com/calebstewart/CVE-2021-1675/blob/main/CVE-2021-1675.ps1
+wget https://github.com/calebstewart/CVE-2021-1675/raw/main/CVE-2021-1675.ps1
+wget https://github.com/ly4k/SpoolFool/raw/main/SpoolFool.exe
+wget https://github.com/ly4k/SpoolFool/raw/main/AddUser.dll
 
 rm -f *.zip *.gz
 

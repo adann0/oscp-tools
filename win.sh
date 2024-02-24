@@ -28,6 +28,7 @@
 # - Kerbrute
 # - SystemNightmare.bat
 # - HiveNightmare
+# - Print Spooler LPE (CVE-2021-1675)
 
 sudo apt install -y powersploit peass windows-binaries
 
@@ -100,6 +101,7 @@ wget https://github.com/adann0/oscp-tools/blob/main/bin/Rubeus.pdb
 
 wget https://raw.githubusercontent.com/GossiTheDog/SystemNightmare/main/SystemNightmare.bat
 wget https://github.com/GossiTheDog/HiveNightmare/raw/master/Release/HiveNightmare.exe
+wget https://github.com/calebstewart/CVE-2021-1675/blob/main/CVE-2021-1675.ps1
 
 rm -f *.zip *.gz
 

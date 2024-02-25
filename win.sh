@@ -22,6 +22,7 @@
 # - JuicyPotatoNG
 # - RottenPotato
 # - SharpEfsPotato
+# - SweetPotato
 # - multi_server.exe
 # - upload.ps1
 # - met.exe
@@ -105,6 +106,7 @@ wget https://github.com/GossiTheDog/HiveNightmare/raw/master/Release/HiveNightma
 wget https://github.com/calebstewart/CVE-2021-1675/raw/main/CVE-2021-1675.ps1
 wget https://github.com/ly4k/SpoolFool/raw/main/SpoolFool.exe
 wget https://github.com/ly4k/SpoolFool/raw/main/AddUser.dll
+wget https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.7_Any/SweetPotato.exe
 
 rm -f *.zip *.gz
 

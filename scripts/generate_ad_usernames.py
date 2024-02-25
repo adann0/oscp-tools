@@ -5,7 +5,7 @@
 import sys
 
 def generate_ad_pseudo(nom_complet):
-    pseudonymes = []
+    results = []
     prenom, nom = nom_complet.split()
     
     results.append(prenom + nom)  # JohnSmith
@@ -20,11 +20,10 @@ def generate_ad_pseudo(nom_complet):
     results.append(nom[0] + prenom)  # SJohn
     results.append(nom + "_" + prenom)  # Smith_John
     
-    pseudonymes.append(prenom + nom + "2023") # JohnSmith2023
-    pseudonymes.append(prenom + nom + "2024") # JohnSmith2024
+    results.append(prenom + nom + "2023") # JohnSmith2023
+    results.append(prenom + nom + "2024") # JohnSmith2024
     results.append(prenom[0] + nom + "2023")  # JSmith2023
     results.append(prenom[0] + nom + "2024")  # JSmith2024
-    
 
     return results
 

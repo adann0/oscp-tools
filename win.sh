@@ -31,6 +31,7 @@
 # - HiveNightmare
 # - Print Spooler LPE (CVE-2021-1675)
 # - SpoolFool (CVE-2022-21999)
+# - Certify.exe
 
 sudo apt install -y powersploit peass windows-binaries
 
@@ -107,6 +108,7 @@ wget https://github.com/calebstewart/CVE-2021-1675/raw/main/CVE-2021-1675.ps1
 wget https://github.com/ly4k/SpoolFool/raw/main/SpoolFool.exe
 wget https://github.com/ly4k/SpoolFool/raw/main/AddUser.dll
 wget https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.7_Any/SweetPotato.exe
+wget https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/master/Certify.exe
 
 rm -f *.zip *.gz
 

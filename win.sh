@@ -32,8 +32,11 @@
 # - Print Spooler LPE (CVE-2021-1675)
 # - SpoolFool (CVE-2022-21999)
 # - Certify.exe
+# - Invoke-Kerberoast.ps1
+# - Invoke-RunasCs.ps1
+# - SeManageVolumeExploit.exe
 
-sudo apt install -y powersploit peass windows-binaries
+#sudo apt install -y powersploit peass windows-binaries
 
 rm -rf ~/win
 mkdir ~/win
@@ -46,6 +49,10 @@ cp /usr/share/windows-resources/binaries/plink.exe .
 cp /usr/share/peass/winpeas/winPEASx64.exe .
 cp /usr/share/windows-resources/mimikatz/x64/mimikatz.exe .
 cp /usr/lib/bloodhound/resources/app/Collectors/SharpHound.ps1 .
+cp /usr/share/powershell-empire/empire/server/data/module_source/credentials/Invoke-Kerberoast.ps1 .
+
+wget https://github.com/antonioCoco/RunasCs/raw/master/Invoke-RunasCs.ps1
+wget https://github.com/CsEnox/SeManageVolumeExploit/releases/download/public/SeManageVolumeExploit.exe
 
 wget https://github.com/besimorhino/powercat/blob/master/powercat.ps1
 

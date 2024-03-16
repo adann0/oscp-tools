@@ -35,6 +35,11 @@
 # - Invoke-Kerberoast.ps1
 # - Invoke-RunasCs.ps1
 # - SeManageVolumeExploit.exe
+# - PrivescCheck.ps1
+# - cve-2019-1458.exe
+# - JAWS
+# - Powerless.bat
+# - ADACLScan.ps1
 
 #sudo apt install -y powersploit peass windows-binaries
 
@@ -50,9 +55,6 @@ cp /usr/share/peass/winpeas/winPEASx64.exe .
 cp /usr/share/windows-resources/mimikatz/x64/mimikatz.exe .
 cp /usr/lib/bloodhound/resources/app/Collectors/SharpHound.ps1 .
 cp /usr/share/powershell-empire/empire/server/data/module_source/credentials/Invoke-Kerberoast.ps1 .
-
-wget https://github.com/antonioCoco/RunasCs/raw/master/Invoke-RunasCs.ps1
-wget https://github.com/CsEnox/SeManageVolumeExploit/releases/download/public/SeManageVolumeExploit.exe
 
 wget https://github.com/besimorhino/powercat/blob/master/powercat.ps1
 
@@ -116,6 +118,14 @@ wget https://github.com/ly4k/SpoolFool/raw/main/SpoolFool.exe
 wget https://github.com/ly4k/SpoolFool/raw/main/AddUser.dll
 wget https://github.com/Flangvik/SharpCollection/raw/master/NetFramework_4.7_Any/SweetPotato.exe
 wget https://github.com/r3motecontrol/Ghostpack-CompiledBinaries/raw/master/Certify.exe
+
+wget https://github.com/antonioCoco/RunasCs/raw/master/Invoke-RunasCs.ps1
+wget https://github.com/CsEnox/SeManageVolumeExploit/releases/download/public/SeManageVolumeExploit.exe
+wget https://raw.githubusercontent.com/itm4n/PrivescCheck/master/PrivescCheck.ps1
+wget https://github.com/411Hall/JAWS/raw/master/jaws-enum.ps1
+wget https://github.com/rip1s/CVE-2019-1458/raw/master/x64/Release/cve-2019-1458.exe
+wget https://github.com/gladiatx0r/Powerless/raw/master/Powerless.bat
+wget https://github.com/canix1/ADACLScanner/releases/download/7.9/ADACLScan.ps1
 
 rm -f *.zip *.gz
 

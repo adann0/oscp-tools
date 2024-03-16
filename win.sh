@@ -40,6 +40,7 @@
 # - JAWS
 # - Powerless.bat
 # - ADACLScan.ps1
+# - PetitPotam.exe
 
 #sudo apt install -y powersploit peass windows-binaries
 
@@ -126,6 +127,7 @@ wget https://github.com/411Hall/JAWS/raw/master/jaws-enum.ps1
 wget https://github.com/rip1s/CVE-2019-1458/raw/master/x64/Release/cve-2019-1458.exe
 wget https://github.com/gladiatx0r/Powerless/raw/master/Powerless.bat
 wget https://github.com/canix1/ADACLScanner/releases/download/7.9/ADACLScan.ps1
+wget https://github.com/topotam/PetitPotam/raw/main/PetitPotam.exe
 
 rm -f *.zip *.gz
 

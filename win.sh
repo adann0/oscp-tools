@@ -44,6 +44,7 @@
 # - LaZagne.exe
 # - Get-LAPSPasswords.ps1
 # - SessionGopher.ps1
+# - Akagi (UACMe)
 
 #sudo apt install -y powersploit peass windows-binaries
 
@@ -114,6 +115,8 @@ wget https://github.com/adann0/oscp-tools/blob/main/bin/SharpEfsPotato.pdb
 wget https://github.com/adann0/oscp-tools/blob/main/bin/Rubeus.exe
 wget https://github.com/adann0/oscp-tools/blob/main/bin/Rubeus.exe.config
 wget https://github.com/adann0/oscp-tools/blob/main/bin/Rubeus.pdb
+wget https://github.com/adann0/oscp-tools/blob/main/bin/Akagi64.exe
+wget https://github.com/adann0/oscp-tools/blob/main/bin/Akagi32.exe
 
 wget https://raw.githubusercontent.com/GossiTheDog/SystemNightmare/main/SystemNightmare.bat
 wget https://github.com/GossiTheDog/HiveNightmare/raw/master/Release/HiveNightmare.exe

